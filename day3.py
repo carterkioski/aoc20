@@ -1,5 +1,5 @@
 #PART ONE
-f = open('inputs/12_3_20.txt', 'r')
+f = open('inputs/day3.txt', 'r')
 a =[]
 for line in f.readlines():
     a.append(line.strip())

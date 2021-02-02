@@ -1,5 +1,5 @@
 #PART ONE
-f = open('inputs/12_2_20.txt', 'r')
+f = open('inputs/day2.txt', 'r')
 correct = 0
 for line in f.readlines():
     line = line.split()
@@ -9,7 +9,7 @@ print(correct)
 f.close()
 print('-------------------------------------------')
 #PART TWO
-f = open('inputs/12_2_20.txt', 'r')
+f = open('inputs/day2.txt', 'r')
 correct = 0
 for line in f.readlines():
     line = line.split()

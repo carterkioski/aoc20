@@ -5,7 +5,6 @@ sum = 0
 for line in f.readlines():
     line = line.strip()
     if not line:
-        print(group)
         sum += len(group)
         group = set()
     else:

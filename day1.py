@@ -1,6 +1,6 @@
 import time
 #PART ONE
-f = open('inputs/12_1_20.txt', 'r')
+f = open('inputs/day1.txt', 'r')
 a = []
 for line in f.readlines():
     a.append(int(line.strip()))
